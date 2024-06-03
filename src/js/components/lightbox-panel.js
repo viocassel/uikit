@@ -312,9 +312,8 @@ export default {
                         src,
                         poster: item.poster,
                         controls: inline ? null : '',
-                        muted: inline ? '' : null,
                         playsinline: '',
-                        'uk-video': `${Boolean(this.videoAutoplay)}`,
+                        'uk-video': inline ? 'automute: true' : Boolean(this.videoAutoplay),
                         ...attrs,
                     });
 
