@@ -9,6 +9,7 @@
 
 ### Changed
 
+- IMPORTANT: Remove `@lightbox-toolbar-*` and `@lightbox-button-*`from Lightbox component
 - Setting `delay-controls: 0` prevents hiding controls in Lightbox component
 
 ## 3.21.6 (July 1, 2024)
